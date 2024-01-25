@@ -1,7 +1,7 @@
 {
   "name": "@xmtp/rollup-plugin-resolve-extensions",
   "description": "Rollup plugin to replace imports with resolved extensions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "XMTP Labs <eng@xmtp.com>",
   "license": "MIT",
   "type": "module",
