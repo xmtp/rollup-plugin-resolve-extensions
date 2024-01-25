@@ -22,7 +22,7 @@ export const resolveExtensions = (
     );
   }
   return {
-    name: "resolve-extensions",
+    name: "@xmtp/rollup-plugin-resolve-extensions",
     resolveId: {
       order: "pre",
       handler: (source, importer, { isEntry }) => {
