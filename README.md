@@ -119,7 +119,7 @@ Then call `rollup` either via the [CLI](https://www.rollupjs.org/guide/en/#comma
 ### `compilerOptions`
 
 Type: `CompilerOptions`<br>
-Default: `undefined`
+Default: `undefined`<br>
 Required: `No`
 
 The plugin loads any [`compilerOptions`](http://www.typescriptlang.org/docs/handbook/compiler-options.html) from the `tsconfig.json` file by default. Passing options to the plugin directly overrides those options:
@@ -141,7 +141,7 @@ export default {
 ### `extensions`
 
 Type: `string[]`<br>
-Default: `undefined`
+Default: `undefined`<br>
 Required: `Yes`
 
 An array of extensions to resolve.

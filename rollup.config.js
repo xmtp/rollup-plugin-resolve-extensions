@@ -13,13 +13,7 @@ const plugins = [
   }),
 ];
 
-const external = [
-  "find-up",
-  "node:fs",
-  "node:path",
-  "strip-json-comments",
-  "typescript",
-];
+const external = ["find-up", "node:fs", "node:path", "typescript"];
 
 export default defineConfig([
   {
